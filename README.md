@@ -15,6 +15,22 @@
 |---|---|
 | ![Avaliação antes da entrega](docs/img/08_avaliacao_antes_da_entrega.png) | ![Nota por faixa de entrega](docs/img/01_nota_por_faixa_entrega.png) |
 
+## Os workflows no KNIME
+
+Imagens geradas pelo próprio KNIME 5.12 após executar cada workflow (todos os nós com o sinal verde de executado). Clique para ampliar.
+
+### 01 · ETL
+[![01 ETL](docs/img/knime/01_ETL_Olist.svg)](docs/img/knime/01_ETL_Olist.svg)
+
+### 02 · Segmentação RFM + k-Means
+[![02 RFM](docs/img/knime/02_Segmentacao_RFM.svg)](docs/img/knime/02_Segmentacao_RFM.svg)
+
+### 03 · Modelo de avaliação ruim
+[![03 Modelo](docs/img/knime/03_Modelo_Avaliacao_Ruim.svg)](docs/img/knime/03_Modelo_Avaliacao_Ruim.svg)
+
+### 04 · Painel de indicadores
+[![04 Painel](docs/img/knime/04_Dashboard_Insights.svg)](docs/img/knime/04_Dashboard_Insights.svg)
+
 ## O problema de negócio
 
 Um marketplace perde receita de dois jeitos silenciosos: clientes que compram uma vez e não voltam, e pedidos que viram avaliação de 1 ou 2 estrelas e derrubam a reputação dos vendedores. O projeto responde três perguntas:
