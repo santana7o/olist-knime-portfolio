@@ -186,14 +186,3 @@ docs/
 
 **Felipe Santana**, estudante de BI / Big Data
 - GitHub: [github.com/santana7o](https://github.com/santana7o)
-
----
-
-## English summary
-
-End-to-end analytics project in **KNIME 5.11** (native nodes only) on 96,470 delivered orders from the public Olist dataset (2016–2018).
-
-- **Late delivery:** 6.8% of orders were late, and late orders get 62% bad (1–2 star) reviews, against 9% on time. This uses a corrected date-based late definition; the earlier Tableau version reported 8.1%.
-- **When customers review:** 74% of late orders were reviewed *before* the product arrived, mostly on or after the promised date. The survey appears to be triggered by the promised date, so the recommendation is to trigger it on confirmed delivery and warn at-risk customers early.
-- **RFM + k-Means:** the "Inactive, high value" segment holds 16% of customers and 31% of revenue.
-- **Bad-review model:** without pre-delivery reviews (60/20/20 split, threshold 0.12 tuned on validation), a Random Forest flags 15% of orders and catches 35% of bad reviews, against 4% for the "late ⇒ bad" rule. AUC 0.66: useful for triage, not an oracle.
