@@ -2,6 +2,8 @@
 
 > Pipeline analítico de ponta a ponta em **KNIME Analytics Platform 5.11** (só nós nativos, sem Python) sobre **96.470 pedidos entregues** do e-commerce brasileiro (Olist, 2016–2018). Inclui ETL, segmentação RFM com k-Means, modelo preditivo de avaliação ruim e painel de indicadores.
 
+Parte do meu portfólio: [santana7o.github.io](https://santana7o.github.io)
+
 ## Principais insights
 
 1. **Atraso é o que mais derruba a nota.** Só 6,8% dos pedidos atrasaram, mas entre eles **62% das avaliações são ruins (nota 1–2)**, contra 9% nos pedidos entregues no prazo. Com 8 dias ou mais de atraso, a taxa de avaliações ruins chega a 79,3% e a nota média cai para **1,70**.
@@ -210,5 +212,4 @@ docs/
 
 ## Autor
 
-**Felipe Santana**, estudante de BI / Big Data
-- GitHub: [github.com/santana7o](https://github.com/santana7o)
+Felipe Gabriel Coelho de Santana, Analista de Dados. [LinkedIn](https://www.linkedin.com/in/felipe-gabriel-coelho-de-santana-a33b49304) · [GitHub](https://github.com/santana7o)
