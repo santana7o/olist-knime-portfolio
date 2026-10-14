@@ -17,19 +17,29 @@
 
 ## Os workflows no KNIME
 
-Imagens geradas pelo próprio KNIME 5.12 após executar cada workflow (todos os nós com o sinal verde de executado). Clique para ampliar.
+Prints do KNIME Analytics Platform 5.12 com os quatro workflows importados e executados (todos os nós com o sinal verde de executado).
 
 ### 01 · ETL
-[![01 ETL](docs/img/knime/01_ETL_Olist.svg)](docs/img/knime/01_ETL_Olist.svg)
+![01 ETL no KNIME](docs/img/knime/print_01_etl_knime.jpg)
 
 ### 02 · Segmentação RFM + k-Means
-[![02 RFM](docs/img/knime/02_Segmentacao_RFM.svg)](docs/img/knime/02_Segmentacao_RFM.svg)
+![02 RFM no KNIME](docs/img/knime/print_02_rfm_knime.jpg)
 
 ### 03 · Modelo de avaliação ruim
-[![03 Modelo](docs/img/knime/03_Modelo_Avaliacao_Ruim.svg)](docs/img/knime/03_Modelo_Avaliacao_Ruim.svg)
+![03 Modelo no KNIME](docs/img/knime/print_03_modelo_knime.jpg)
+
+Matriz de confusão do Random Forest no conjunto de teste (nó *Scorer*):
+
+<img src="docs/img/knime/print_03_matriz_confusao_knime.jpg" alt="Matriz de confusão no KNIME" width="420">
 
 ### 04 · Painel de indicadores
-[![04 Painel](docs/img/knime/04_Dashboard_Insights.svg)](docs/img/knime/04_Dashboard_Insights.svg)
+![04 Painel no KNIME](docs/img/knime/print_04_painel_knime.jpg)
+
+Visão interativa do nó *Bar Chart* (nota média por faixa de entrega):
+
+![Bar Chart no KNIME](docs/img/knime/print_04_grafico_knime.jpg)
+
+<sub>Versões em alta resolução de cada canvas: [01](docs/img/knime/01_ETL_Olist.svg) · [02](docs/img/knime/02_Segmentacao_RFM.svg) · [03](docs/img/knime/03_Modelo_Avaliacao_Ruim.svg) · [04](docs/img/knime/04_Dashboard_Insights.svg)</sub>
 
 ## O problema de negócio
 
