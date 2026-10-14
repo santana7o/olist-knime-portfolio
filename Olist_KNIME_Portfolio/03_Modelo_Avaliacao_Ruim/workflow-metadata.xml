@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workflow-metadata content-type="text/plain" xmlns="http://www.knime.org/core/node/workflow/metadata/v1.0">
+    <last-modified>2026-10-14T12:00:00.000-03:00</last-modified>
+    <description>Classificação: prevê se um pedido receberá avaliação ruim (nota 1-2). Split 60/20/20 estratificado (treino/validação/teste); compara baseline, árvore de decisão e Random Forest com limiar escolhido na validação; métricas finais só no teste. Métricas, importância (proxy) e previsões vão para data/processed. Requer o 01 executado.</description>
+    <tags>
+        <tag>Olist</tag>
+        <tag>Classificação</tag>
+        <tag>Random Forest</tag>
+        <tag>Decision Tree</tag>
+    </tags>
+    <links/>
+</workflow-metadata>

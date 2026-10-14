@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workflow-metadata content-type="text/plain" xmlns="http://www.knime.org/core/node/workflow/metadata/v1.0">
+    <last-modified>2026-10-14T12:00:00.000-03:00</last-modified>
+    <description>Segmentação de clientes por RFM (recência, frequência, valor) com k-Means sobre a tabela analítica do workflow 01. Gera data/processed/rfm_clientes.csv e rfm_perfil_segmentos.csv, com nome e ação de negócio por segmento. Requer o 01 executado.</description>
+    <tags>
+        <tag>Olist</tag>
+        <tag>RFM</tag>
+        <tag>k-Means</tag>
+        <tag>Segmentação</tag>
+    </tags>
+    <links/>
+</workflow-metadata>

@@ -1,0 +1,20 @@
+# Dados brutos da Olist (baixar do Kaggle — ver README)
+Olist_KNIME_Portfolio/data/raw/*.csv
+# Saídas grandes geradas ao executar os workflows
+Olist_KNIME_Portfolio/data/processed/olist_pedidos.csv
+Olist_KNIME_Portfolio/data/processed/rfm_clientes.csv
+Olist_KNIME_Portfolio/data/processed/previsoes_*.csv
+# Estado interno do KNIME (gerado ao executar/salvar)
+**/internal/
+**/port_*/
+**/internalTables/
+**/data.xml
+**/.savedWithData
+**/.knimeLock
+**/.metadata/
+**/.artifacts/
+*.knwf
+*.zip
+.DS_Store
+__pycache__/
+.claude/
